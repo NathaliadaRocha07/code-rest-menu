@@ -1,0 +1,246 @@
+/* FONT STYLES */
+
+/* Style for section text */
+.my_h1 {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+/* Style for menu item */
+.my_h2 {
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1125rem;
+  text-transform: uppercase;
+}
+
+/* Style for menu item price and nav */
+.my_h3 {
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+/* Style for menu item price and nav */
+.my_h4 {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+
+/* Style for text and nav */
+.my_p1 {
+  font-family: Montserrat;
+  font-size: 0.90rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Style for text and item description */
+.my_p2 {
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.my_order {
+
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+/* style for menu itens */
+.my_menu_p {
+  padding: 16px;
+}
+
+
+
+/* COLOURS FOR TEXT */
+
+/* light color for text */
+.my_l {
+  color: #f8f9fa;
+}
+
+/* dark color for text */
+.my_d {
+  color: #212529;
+}
+
+/* dark grey color for text */
+.my_dg {
+  color: #404040;
+}
+
+/* dark grey color for text */
+.my_mg {
+  color: #858585;
+}
+
+/* dark grey color for text */
+.my_lg {
+  color: #B9B9B9;
+}
+
+
+/* light color for background */
+.my_bg_l {
+  background-color: #f8f9fa;
+}
+
+/* dark color for background */
+.my_bg_d {
+  background-color: #212529;
+}
+
+
+.my_bg_d:enabled {
+  background-color: #212529;
+}
+
+/* dark grey color for background */
+.my_bg_dg {
+  background-color: #404040;
+}
+
+/* dark grey color for background */
+.my_bg_mg {
+  background-color: #858585;
+}
+
+/* dark grey color for background */
+.my_bg_lg {
+  background-color: #B9B9B9;
+}
+
+.my_topspace {
+  padding-top: 70px;
+}
+
+.nav_pad {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.dm_shadow {
+  box-shadow: 0px 2px 6px #dfdfdf21;
+}
+.lm_shadow {
+  box-shadow: 0px 2px 6px #55555521;
+}
+
+.my_img_bg {
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.my_item_dark_bg {
+  background: rgb(33,37,41);
+  background: linear-gradient(180deg, rgba(33,37,41,0) 0%, rgba(33,37,41,1) 26%);
+}
+
+.my_item_light_bg {
+  background: #f8f9fa;
+  background: linear-gradient(180deg, #f8f9fa00 0%, #f8f9fa 26%);
+}
+
+.my_btn {
+  font-family: Montserrat;
+  font-weight: 700;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.my_btn_sm {
+  font-family: Montserrat;
+  font-weight: 500;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.my_item_btn
+{
+  border-radius: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.noborder {
+  border: 0;
+  border-style: none;
+}
+
+.dark-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 999; 
+  display: none; 
+}
+
+.navbar-collapse.show + .dark-overlay {
+  display: block; 
+}
+
+/* bootstrap replaces */
+a:hover {
+  color: rgb(85, 85, 85);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+
+  .my_container {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      align-content: end;
+  }
+
+  .my_topspace {
+      padding-top: 80px;
+
+  }
+
+}
