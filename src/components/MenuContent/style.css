@@ -1,0 +1,60 @@
+/* COLOURS FOR TEXT */
+
+.nav_pad {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+  /* light color for text */
+.my_l {
+    color: #f8f9fa;
+}
+  
+  /* Style for menu item price and nav */
+.my_h3 {
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+ /* Style for menu item price and nav */
+.my_h4 {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+  
+  /* Style for text and nav */
+.my_p1 {
+    font-family: Montserrat;
+    font-size: 0.90rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* Style for text and item description */
+.my_p2 {
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+/* dark grey color for text */
+.my_mg {
+    color: #858585;
+}
+  
+/* dark color for background */
+.my_bg_d {
+    background-color: #212529;
+}
+  

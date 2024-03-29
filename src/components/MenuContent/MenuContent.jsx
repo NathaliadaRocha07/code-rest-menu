@@ -1,12 +1,13 @@
 import React from 'react';
+//import "./style.css";
 
-function MenuContent() {
+function menuContent() {
   return (
     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <li className="nav-item">
         <a className="nav-link nav_pad active" aria-current="page" href="#">
           <span className="my_l my_h3 my_big">See order</span>
-          <span className="my_p2 my_mg" style={{ paddingLeft: '10px' }}>03 items</span>
+          <span className="my_p2 my_mg" style={{ paddingLeft: '10px'}}>03 items</span>
         </a>
       </li>
       <li className="nav-item">
@@ -35,4 +36,4 @@ function MenuContent() {
   );
 }
 
-export default MenuContent;
+export default menuContent;
