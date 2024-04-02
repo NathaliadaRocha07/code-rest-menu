@@ -1,5 +1,17 @@
 /* FONT STYLES */
 
+.p-3 {
+  padding: 1rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 /* Style for section text */
 .my_h1 {
   font-family: Montserrat;
